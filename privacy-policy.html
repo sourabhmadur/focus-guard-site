@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Focus Guard — Privacy Policy</title>
+<style>
+  body {
+    max-width: 680px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: -apple-system, system-ui, sans-serif;
+    line-height: 1.7;
+    color: #1a1a1a;
+  }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  h2 { font-size: 18px; margin-top: 32px; margin-bottom: 8px; }
+  .updated { color: #666; font-size: 14px; margin-bottom: 32px; }
+  ul { padding-left: 24px; }
+  li { margin-bottom: 6px; }
+  .tldr {
+    background: #f0f9ff;
+    border: 1px solid #bae6fd;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 20px 0;
+  }
+  .tldr strong { display: block; margin-bottom: 6px; }
+</style>
+</head>
+<body>
+
+<h1>Focus Guard — Privacy Policy</h1>
+<p class="updated">Last updated: February 10, 2026</p>
+
+<div class="tldr">
+  <strong>The short version:</strong>
+  During a focus session, Focus Guard sends screenshots of your active tab to an AI service to check if you're on task. Screenshots are analyzed instantly and never stored. We don't collect any personal information.
+</div>
+
+<h2>What Focus Guard Does</h2>
+<p>Focus Guard is a Chrome extension that helps you stay focused during work or study sessions. You set a goal and a timer, and Focus Guard monitors your browsing to make sure you stay on track. If you drift to something unrelated, it gently blocks the page and reminds you of your goal.</p>
+
+<h2>What Data Is Accessed</h2>
+<p>During an active focus session (and only during an active session), Focus Guard:</p>
+<ul>
+  <li><strong>Takes screenshots</strong> of your currently visible browser tab — this is how it understands what you're looking at.</li>
+  <li><strong>Reads the tab URL and title</strong> — this gives additional context to determine if you're on task.</li>
+</ul>
+<p>When no session is running, Focus Guard does not access any data. It sits completely idle.</p>
+
+<h2>Where Screenshots Are Sent</h2>
+<p>Screenshots are sent to a secure AI service for analysis. The AI looks at the screenshot, compares it to your stated goal, and returns a simple on-task or off-task result. That's all it does.</p>
+
+<h2>What Is NOT Collected</h2>
+<ul>
+  <li>No browsing history</li>
+  <li>No personal information (name, email, etc.)</li>
+  <li>No tracking or analytics</li>
+  <li>No cookies or identifiers</li>
+  <li>No data is ever sold or shared with advertisers</li>
+</ul>
+
+<h2>Data Storage</h2>
+<ul>
+  <li><strong>Screenshots:</strong> Analyzed in real-time and immediately discarded. They are never saved to any server or database.</li>
+  <li><strong>Session settings:</strong> Your goal text and timer duration are saved locally in your browser (using Chrome's built-in storage) so they persist between sessions. This data never leaves your device.</li>
+</ul>
+
+<h2>Chrome Permissions Explained</h2>
+<p>Focus Guard requests certain browser permissions. Here's what each one does and why it's needed:</p>
+<ul>
+  <li><strong>activeTab &amp; tabs:</strong> Needed to take a screenshot of your current tab during a session.</li>
+  <li><strong>storage:</strong> Saves your session settings (goal and duration) locally so you don't have to re-enter them every time.</li>
+  <li><strong>alarms:</strong> Keeps the focus timer running reliably in the background.</li>
+</ul>
+
+<h2>Your Control</h2>
+<p>You are always in control:</p>
+<ul>
+  <li>Monitoring only happens during sessions that you explicitly start.</li>
+  <li>You can stop any session at any time with one click.</li>
+  <li>Uninstalling the extension removes all locally stored data.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>If you have questions about this privacy policy, please open an issue on the project's GitHub repository.</p>
+
+</body>
+</html>
